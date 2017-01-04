@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B25227D4-D9A7-4525-A714-010041C24FA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{402D9D32-E18D-4DC5-87C1-9BB7971069FA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FutebaBrasil.Api", "src\WebApplication1\FutebaBrasil.Api.xproj", "{2135F130-1789-4A1B-9795-E90AAA8DBD68}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FutebaBrasil.Core", "src\FutebaBrasil.Core\FutebaBrasil.Core.xproj", "{07DADD7F-D3FB-46C4-80FD-8B166BB5776A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FutebaBrasil.Domain", "src\FutebaBrasil.Domain\FutebaBrasil.Domain.xproj", "{61C7E83F-3C6E-49E9-A49A-B2929ECD157A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FutebaBrasil.DataBase", "src\FutebaBrasil.DataBase\FutebaBrasil.DataBase.xproj", "{21E58B3B-6D21-4307-B788-9BA32E4462A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2135F130-1789-4A1B-9795-E90AAA8DBD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2135F130-1789-4A1B-9795-E90AAA8DBD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2135F130-1789-4A1B-9795-E90AAA8DBD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2135F130-1789-4A1B-9795-E90AAA8DBD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DADD7F-D3FB-46C4-80FD-8B166BB5776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DADD7F-D3FB-46C4-80FD-8B166BB5776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DADD7F-D3FB-46C4-80FD-8B166BB5776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DADD7F-D3FB-46C4-80FD-8B166BB5776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C7E83F-3C6E-49E9-A49A-B2929ECD157A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C7E83F-3C6E-49E9-A49A-B2929ECD157A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C7E83F-3C6E-49E9-A49A-B2929ECD157A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C7E83F-3C6E-49E9-A49A-B2929ECD157A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E58B3B-6D21-4307-B788-9BA32E4462A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E58B3B-6D21-4307-B788-9BA32E4462A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E58B3B-6D21-4307-B788-9BA32E4462A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E58B3B-6D21-4307-B788-9BA32E4462A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2135F130-1789-4A1B-9795-E90AAA8DBD68} = {B25227D4-D9A7-4525-A714-010041C24FA2}
+		{07DADD7F-D3FB-46C4-80FD-8B166BB5776A} = {B25227D4-D9A7-4525-A714-010041C24FA2}
+		{61C7E83F-3C6E-49E9-A49A-B2929ECD157A} = {B25227D4-D9A7-4525-A714-010041C24FA2}
+		{21E58B3B-6D21-4307-B788-9BA32E4462A4} = {B25227D4-D9A7-4525-A714-010041C24FA2}
+	EndGlobalSection
+EndGlobal
